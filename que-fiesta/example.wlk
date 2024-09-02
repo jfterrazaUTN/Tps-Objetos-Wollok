@@ -53,9 +53,9 @@ object manic { // Well Know Object (WKO)
 object fiesta {
   var property quienOrganiza = manic
 
-  method cambiarOrganizador(organizador) {
-    quienOrganiza = organizador
-  }
+  //method cambiarOrganizador(organizador) {
+    //quienOrganiza = organizador
+  //}
 
   method averiguarSiEstaPreparada() = 
   quienOrganiza.tenerTodoListo() && quienOrganiza.tenerSuficientesGlobos()
